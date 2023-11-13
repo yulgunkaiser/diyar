@@ -77,10 +77,18 @@ h2.poem-header{
 .elshir-photo{
     float: right;
     padding-left: 10px;
-}
-.elshir-photo {
     height: 100px;
     width: 100px;
+}
+.elshir-bio {
+    margin-top: 0%;
+}
+.poem-elshir{
+    clear: both;
+}
+.nav{
+   padding-left: 10px;
+   padding-bottom: 30px;
 }
 
 
