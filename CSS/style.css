@@ -1,25 +1,90 @@
-@font-face{
-font-family: Basma
-src: url(../Fonts/UKIJBasmaTB.ttf)
+/* Common CSS */
+* {
+    font-family: 'UKIJ Tuz', 'ALKATIP Tor', 'UKIJ Tor', 'UKIJ inchike', 'Alpida_Unicode System', 'UKIJ Tuz Tom', 'Microsoft Uighur', 'uyghur ekran', 'Arial Unicode MS', 'Alpida_Unicode System';
 }
 
-*{
-font-family: Basma;
+h1 {
+    color: green;
+    background-color: transparent;
+    text-align: center;
 }
 
-h1{
-color: green;
-background-color: darkseagreen;
+h2 {
+    color: #FAF8F1;
+    background-color: #C58940;
 }
 
-h2{
-color: #FAF8F1;
-background-color: #C58940;
+.nav {
+    color: red;
+    display: inline-block;
+    padding-left: 10px;
 }
 
-.nav{
-color: red;
+body {
+    background-color: antiquewhite;
 }
+
+p {
+    color: red;
+}
+
+
+
+
+/*Knowledge page CSS */
+h2.color-title {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
+.color-title {
+    font-weight: normal;
+}
+#red {
+    text-align: center;
+    color: red;
+    background-color: transparent;
+
+}
+#yellow {
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+}
+#blue {
+    background-color: transparent;
+    color: blue;
+    text-align: center;
+}
+#orange {
+    background-color: transparent;
+    color: orange;
+    text-align: center;
+}
+#green {
+    background-color: transparent;
+    color: green;
+    text-align: center;
+}
+
+
+
+/*Poem page CSS */
+h2.poem-header{
+    background-color: transparent;
+    color: black;  
+}
+.elshir-photo{
+    float: right;
+    padding-left: 10px;
+}
+.elshir-photo {
+    height: 100px;
+    width: 100px;
+}
+
+
+
 
 /*ol{
 margin-left: -40px;
@@ -29,38 +94,9 @@ font-size: 20px
 text-align: center
 }*/
 
-body{
-background-color: antiquewhite;
-}
 
-p{
-color: red;
-}
 
-.color-title{
-font-weight: normal;
-}
 
-#red{
-color: red;
-}
-#yellow{
-color: yellow;
-}
 
-#blue{
-color: blue;
-}
 
-#orange{
-color: orange;
-}
 
-#green{
-color: green;
-}
-
-img{
-height: 100px;
-width: 100px;
-}
