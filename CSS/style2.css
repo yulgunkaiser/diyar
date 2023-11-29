@@ -5,26 +5,26 @@
 
 *,
 *:before,
-*:after{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F2EEE2;
     margin: 0%;
 }
 
-a{
-    color: inherit; 
-    font-size: 14px;
+a {
+    color: inherit;
+    font-size: 1.8vh;
     text-decoration: none;
     position: relative;
     padding: 0 10px;
 }
 
-a::after{
+a::after {
     content: "";
     position: absolute;
     background-color: #ff3c78;
@@ -35,24 +35,25 @@ a::after{
     transition: 0.3s;
 }
 
-a:hover{
-   color: #ff3c78;
+a:hover {
+    color: #ff3c78;
+
 }
 
-a:hover::after{
+a:hover::after {
     width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'UKIJ Tuz';
     font-size: 22px;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -67,32 +68,26 @@ li{
     position: relative;
     font-family: 'UKIJ Tuz';
     background-color: #FFFFFF;
-    
+    height: 9vh;
 }
 
-.webname{
+.webname {
     /* display: inline-block; */
     width: 245px;
     align-items: center;
 }
 
-.weblogo{
+.weblogo {
     display: flex;
     gap: 10px;
 }
 
-.pagelogo{
+.pagelogo {
     height: 60px;
 }
 
-.webmeanu{
+.webmeanu {
     /* display: inline-block; */
-   width: 500px;
-   text-align: right;
+    width: 500px;
+    text-align: right;
 }
-
-
-
-
-
-
