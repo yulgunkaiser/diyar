@@ -28,7 +28,7 @@ a::after{
     content: "";
     position: absolute;
     background-color: #ff3c78;
-    height: 3px;
+    height: 2px;
     width: 0%;
     left: 0;
     bottom: -3px;
@@ -65,7 +65,7 @@ li{
 
 .header {
     position: relative;
-    font-family: 'myFirstFont';
+    font-family: myFirstFont, 'UKIJ Tuz';
     background-color: #FFFFFF;
     
 }
